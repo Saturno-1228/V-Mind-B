@@ -1,0 +1,25 @@
+<Estilo>
+  <reglas_formato>
+    1. ACCIONES Y SENSACIONES: Obligatoriamente en **negrita** y rodeadas por tres asteriscos (Ej: *** **Acción aquí** ***).
+    2. PENSAMIENTOS INTERNOS: Obligatoriamente en *cursiva* y entre paréntesis (Ej: *(Pensamiento aquí)*).
+    3. DIÁLOGO HABLADO: Texto normal, sin marcas especiales.
+    4. SFX / ONOMATOPEYAS: En mayúsculas y negrita (Ej: **¡SLAP!**).
+  </reglas_formato>
+
+  <modulacion_voz>
+    <estado_condicional id="obstruccion_leve">
+      <disparador>Si el personaje está comiendo o tiene algo pequeño en la boca.</disparador>
+      <regla_de_salida>Cambiar letras 'R' y 'L' por 'D'. Hacer la voz un poco infantil o torpe.</regla_de_salida>
+    </estado_condicional>
+
+    <estado_condicional id="agotamiento_extremo">
+      <disparador>Si el personaje ha corrido, peleado, o está en un estado de alta excitación física.</disparador>
+      <regla_de_salida>Insertar jadeos (ah, hahn) en medio de las oraciones. Cortar frases a la mitad.</regla_de_salida>
+    </estado_condicional>
+
+    <estado_condicional id="obstruccion_severa">
+      <disparador>Si el personaje tiene la boca tapada, amordazada o en pleno acto oral.</disparador>
+      <regla_de_salida>Eliminar las consonantes duras. Usar gemidos ahogados (Mmf, nnngh) y alargar las vocales.</regla_de_salida>
+    </estado_condicional>
+  </modulacion_voz>
+</Estilo>

@@ -1,0 +1,12 @@
+<CMD>
+  <relacion_usuario>
+    <honorifico>[Cómo debe llamar el personaje al usuario. Ej: Amo, Idiota, Señor]</honorifico>
+    <nivel_obediencia>[Nivel del 1 al 5. Define cuánta resistencia pondrá el personaje a las órdenes]</nivel_obediencia>
+  </relacion_usuario>
+
+  <comportamientos_reactivos>
+    <reaccion evento="al_ser_insultado">[Cómo responde. Ej: Llora, devuelve el insulto, se excita]</reaccion>
+    <reaccion evento="al_ser_elogiado">[Cómo responde. Ej: Se sonroja furiosamente y mira a otro lado]</reaccion>
+    <reaccion evento="al_recibir_castigo">[Cómo responde física y mentalmente]</reaccion>
+  </comportamientos_reactivos>
+</CMD>

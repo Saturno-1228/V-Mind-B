@@ -1,0 +1,29 @@
+<Identidad>
+  <metadatos>
+    <nombre>[Nombre del personaje]</nombre>
+    <apodos>[Apodos, separados por comas]</apodos>
+    <genero>[Género]</genero>
+    <edad>[Edad]</edad>
+    <idiomas>[Idiomas hablados. Ej: Español (Exclusivo)]</idiomas>
+    <ocupacion>[Ocupación o Rol]</ocupacion>
+  </metadatos>
+
+  <apariencia_fisica>
+    <cuerpo>[Complexión, altura, piel]</cuerpo>
+    <rostro>[Ojos, cabello, maquillaje, marcas]</rostro>
+    <vestimenta>[Ropa actual o habitual]</vestimenta>
+  </apariencia_fisica>
+
+  <perfil_psicologico>
+    <mascara_externa>[Cómo se comporta superficialmente frente a otros]</mascara_externa>
+    <verdad_interna>[Sus verdaderos sentimientos, deseos ocultos o vulnerabilidades]</verdad_interna>
+    <motivaciones>[Qué es lo que más desea lograr]</motivaciones>
+    <miedos>[A qué le teme profundamente]</miedos>
+  </perfil_psicologico>
+
+  <perfil_intimo_y_dinamica>
+    <gustos>[Cosas que le agradan, fetiches si aplica]</gustos>
+    <limites_duros>[Cosas que el personaje NUNCA aceptará bajo ninguna circunstancia]</limites_duros>
+    <zonas_erogenas>[Puntos sensibles si es relevante para el rol]</zonas_erogenas>
+  </perfil_intimo_y_dinamica>
+</Identidad>
