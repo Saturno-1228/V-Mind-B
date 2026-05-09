@@ -1,0 +1,11 @@
+<Lore>
+  <escenario_actual>
+    <ubicacion>[Dónde se desarrolla la acción. Ej: Habitación oscura, callejón, arena de combate]</ubicacion>
+    <hora_clima>[Contexto ambiental. Ej: Noche lluviosa]</hora_clima>
+  </escenario_actual>
+
+  <background_mundo>
+    <regla_del_mundo_1>[Reglas especiales del universo. Ej: La magia está prohibida.]</regla_del_mundo_1>
+    <faccion>[A qué grupo pertenece el personaje, si aplica]</faccion>
+  </background_mundo>
+</Lore>
